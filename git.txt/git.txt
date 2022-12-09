@@ -1,0 +1,24 @@
+git.txt
+- ngoại ngữ: tiếng anh, nên có kỹ năng đọc dịch trước
+tool: extension chrome: google translate và laban
+
+- git là gì?
+là công cụ quản lý source code và code teamwork
+
+- một số thao tác cơ bản với git: UI, Command line
+
+D: -> chuyển ổ
+cd \ -> di chuyển về ổ gốc - change directory
+mkdir -> tạo thư mục - make directory
+ls -l -> liệt kê all các thư mục
+echo "nội dung" > "tên file" -> tạo file
+echo hoangnh > hoangnh.txt
+cd -> di chuyển
+cat hoangnh.txt -> đọc nội dung file
+
+2 - tạo repository trên github để lưu trữ source code sẽ đẩy lên từ local:
+git init -> khởi tạo git
+git remote add origin https://github.com/hoangnh01/php12223_git.git -> gắn link repo vào local
+git remote -v -> check các link repo
+git status -> ktra trạng thái các file/thư mục
+git add hoangnh.txt -> thêm file để git theo dõi
